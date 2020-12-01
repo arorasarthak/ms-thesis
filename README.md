@@ -15,3 +15,10 @@ This work presents the development of a perception pipeline to passively track t
 
 ### Summary
 This repo is a code base for my master's thesis. The entire system was implemented in python using CoppeliaSim Robotics Simulator. The project also heavily depends on zero-mq for communication. All the python programs live in the `scripts` folder and there are two scripts that are mainly responsible for everything, namely: `scripts/experiment.py` and `scripts/rtde_helper.py`.
+
+### Links
+[Manuscript](https://scholarworks.rit.edu/theses/10334/)
+
+[![Video](https://img.youtube.com/vi/fxHwCIYJh8I/0.jpg)](https://www.youtube.com/watch?v=fxHwCIYJh8I "Video")
+
+Click on the image to watch the video!
