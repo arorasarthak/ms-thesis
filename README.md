@@ -12,9 +12,10 @@ This work presents the development of a perception pipeline to passively track t
 - PyQtGraph
 - PyRep
 - Universal Robots - RTDE
+- MATLAB Engine API for Python
 
 ### Summary
-This repo is a code base for my master's thesis. The entire system was implemented in python using CoppeliaSim Robotics Simulator. The project also heavily depends on zero-mq for communication. All the python programs live in the `scripts` folder and there are two scripts that are mainly responsible for everything, namely: `scripts/experiment.py` and `scripts/rtde_helper.py`.
+This repo is a code base for my master's thesis. The entire system was implemented in python using CoppeliaSim Robotics Simulator. The project also heavily depends on zero-mq for communication. All the python programs live in the `scripts` folder and there are two scripts that are mainly responsible for everything, namely: `scripts/experiment.py` and `scripts/rtde_helper.py`. The system pipeline originates from raw sensor data obtained from the simulation(Universal Robots UR10 and time-of-sensors) and gets passed through tensorflow models along with bayesian filter implementations using the MATLAB API for Python
 
 ### Links
 [Manuscript](https://scholarworks.rit.edu/theses/10334/)
